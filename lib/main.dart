@@ -13,6 +13,7 @@ class _ExpoReservationViewState extends State<ExpoReservationView> {
   InAppWebViewController? webViewController;
   // TODO: 大阪万博のパビリオン予約サイトの正式なURLに置き換えてください
   final String targetUrl = "https://ticket.expo2025.or.jp/myticket_detail/"; // 例: "https://www.expo2025.or.jp/" (実際の予約サイトとは異なります)
+  // final String targetUrl = "https://ticket.expo2025.or.jp/";
 
   final String customCSS = """
     .style_search_item_note__vExQQ,
